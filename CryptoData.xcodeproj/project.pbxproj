@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		74D1851A271487C200232091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D18519271487C200232091 /* AppDelegate.swift */; };
 		74D1851C271487C200232091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1851B271487C200232091 /* SceneDelegate.swift */; };
-		74D1851E271487C200232091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1851D271487C200232091 /* ViewController.swift */; };
 		74D18521271487C200232091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D1851F271487C200232091 /* Main.storyboard */; };
 		74D18524271487C200232091 /* CryptoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74D18522271487C200232091 /* CryptoData.xcdatamodeld */; };
 		74D18526271487C900232091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D18525271487C900232091 /* Assets.xcassets */; };
 		74D18529271487C900232091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D18527271487C900232091 /* LaunchScreen.storyboard */; };
+		74D185312714880800232091 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D185302714880800232091 /* Crypto.swift */; };
+		74D185332714881F00232091 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D185322714881F00232091 /* MainTableViewController.swift */; };
+		74D1853927148A6400232091 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1853827148A6400232091 /* NetworkManager.swift */; };
+		74D1853C2715AF0000232091 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1853B2715AF0000232091 /* CryptoTableViewCell.swift */; };
+		74D1853E2715F85300232091 /* CryptoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1853D2715F85200232091 /* CryptoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74D18516271487C200232091 /* CryptoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D18519271487C200232091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D1851B271487C200232091 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74D1851D271487C200232091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74D18520271487C200232091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74D18523271487C200232091 /* CryptoData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptoData.xcdatamodel; sourceTree = "<group>"; };
 		74D18525271487C900232091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D18528271487C900232091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D1852A271487C900232091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D185302714880800232091 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		74D185322714881F00232091 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		74D1853827148A6400232091 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		74D1853B2715AF0000232091 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		74D1853D2715F85200232091 /* CryptoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,60 @@
 		74D18518271487C200232091 /* CryptoData */ = {
 			isa = PBXGroup;
 			children = (
-				74D18519271487C200232091 /* AppDelegate.swift */,
-				74D1851B271487C200232091 /* SceneDelegate.swift */,
-				74D1851D271487C200232091 /* ViewController.swift */,
-				74D1851F271487C200232091 /* Main.storyboard */,
+				74D1853A27148A6800232091 /* Managers */,
+				74D185362714884800232091 /* Supporting Files */,
+				74D185352714883100232091 /* ViewControllers */,
+				74D185342714882900232091 /* Model */,
+				74D185372714885D00232091 /* Storyboards */,
 				74D18525271487C900232091 /* Assets.xcassets */,
-				74D18527271487C900232091 /* LaunchScreen.storyboard */,
-				74D1852A271487C900232091 /* Info.plist */,
 				74D18522271487C200232091 /* CryptoData.xcdatamodeld */,
 			);
 			path = CryptoData;
+			sourceTree = "<group>";
+		};
+		74D185342714882900232091 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74D185302714880800232091 /* Crypto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74D185352714883100232091 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74D185322714881F00232091 /* MainTableViewController.swift */,
+				74D1853B2715AF0000232091 /* CryptoTableViewCell.swift */,
+				74D1853D2715F85200232091 /* CryptoDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74D185362714884800232091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74D18519271487C200232091 /* AppDelegate.swift */,
+				74D1851B271487C200232091 /* SceneDelegate.swift */,
+				74D1852A271487C900232091 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74D185372714885D00232091 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				74D1851F271487C200232091 /* Main.storyboard */,
+				74D18527271487C900232091 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		74D1853A27148A6800232091 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				74D1853827148A6400232091 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D1851E271487C200232091 /* ViewController.swift in Sources */,
+				74D1853927148A6400232091 /* NetworkManager.swift in Sources */,
+				74D185312714880800232091 /* Crypto.swift in Sources */,
 				74D1851A271487C200232091 /* AppDelegate.swift in Sources */,
 				74D18524271487C200232091 /* CryptoData.xcdatamodeld in Sources */,
+				74D185332714881F00232091 /* MainTableViewController.swift in Sources */,
 				74D1851C271487C200232091 /* SceneDelegate.swift in Sources */,
+				74D1853E2715F85300232091 /* CryptoDetailsViewController.swift in Sources */,
+				74D1853C2715AF0000232091 /* CryptoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CryptoData/Info.plist;
+				INFOPLIST_FILE = "CryptoData/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CryptoData/Info.plist;
+				INFOPLIST_FILE = "CryptoData/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
